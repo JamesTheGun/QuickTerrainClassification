@@ -6,7 +6,7 @@ from constants import ESPSG, RES
 import subprocess
 import rasterio
 
-def save_output(model_results: torch.Tensor, output_path: str):
+def save_output_as_shape(model_results: torch.Tensor, output_path: str):
     pass
 
 def load_data(geotiff_path: str) -> torch.Tensor:
